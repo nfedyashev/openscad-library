@@ -1,6 +1,8 @@
 # openscad-library
 
+
 How to use it?
+=======
 
 Install it locally:
 
@@ -14,7 +16,10 @@ git submodule add git@github.com:nfedyashev/openscad-library.git vendor/openscad
 Import into your scad file:
 
 ```
-use <vendor/openscad-library/ceiling_profile.scad>
+  use <vendor/openscad-library/ceiling_profile.scad>
 
-ud27();
+  ud27();
+  ud27(pos=[200, 100, 100]);
+  ud27(pos=[200, 100, 100], angle=[0, 0, 0]);
+  ud27(pos=[200, 100, 100], angle=[0, 0, 0], center=true);
 ```
