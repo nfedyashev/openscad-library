@@ -22,4 +22,5 @@ Import into your scad file:
   ud27(pos=[200, 100, 100]);
   ud27(pos=[200, 100, 100], angle=[0, 0, 0]);
   ud27(pos=[200, 100, 100], angle=[0, 0, 0], center=true);
+  ud27(pos=[200, 100, 100], angle=[0, 0, 0], center=true, length=100);
 ```
