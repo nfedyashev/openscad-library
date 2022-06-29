@@ -29,4 +29,12 @@ Import into your scad file:
   bsa_bracket(pos=[200, 100, 100]);
   bsa_bracket(pos=[200, 100, 100], angle=[0, 0, 0]);
   bsa_bracket(pos=[200, 100, 100], angle=[0, 0, 0], center=true);
+
+  use <openscad-library/rectangular_tube.scad>
+  tube2030();
+  tube2030(length=350);
+  tube2030(pos=[200, 100, 100]);
+  tube2030(pos=[200, 100, 100], angle=[0, 0, 0]);
+  tube2030(pos=[200, 100, 100], angle=[0, 0, 0], center=true);
+
 ```
